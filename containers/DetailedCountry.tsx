@@ -27,7 +27,6 @@ function DetailedCountry() {
   );
   const languages: String[] = Object.values(data.languages);
 
-  useEffect(() => console.log(languages));
 
   return (
     <>
